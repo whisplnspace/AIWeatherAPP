@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Weather + Gemini Chatbot</title>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+  <div class="container">
+    <div class="weather-card" id="weatherCard">
+      <div class="weather-icon">🌤️</div>
+      <div id="location">Loading location...</div>
+      <div id="temperature">Loading weather...</div>
+    </div>
+
+    <div class="chatbot-wrapper">
+      <button class="chat-toggle" id="toggleChat">💬</button>
+      <div class="chat-container hidden" id="chatContainer">
+        <div class="chat-header">Gemini Chatbot</div>
+        <div class="chat-body" id="chatBody"></div>
+        <div class="chat-input">
+          <input type="text" id="userInput" placeholder="Ask something..." />
+          <button id="sendBtn">➤</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

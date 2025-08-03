@@ -98,5 +98,3 @@ Special thanks to:
 </p>
 ```
 
-
-Would you like me to generate a deploy-ready version for Vercel too?

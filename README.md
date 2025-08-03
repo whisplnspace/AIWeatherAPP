@@ -96,5 +96,3 @@ Special thanks to:
 <p align="center">
   <b>Crafted with care ☁️ by <a href="https://github.com/whisplnspace">whisplnspace</a></b>
 </p>
-```
-
